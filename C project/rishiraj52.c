@@ -25,18 +25,18 @@ int main() {
       else printf("%c ",ch++);
       if(ch > 'Z') ch='A';
     } 
-
-    printf("\n");
-  } 
-	
-	for (i=n;i>=1;i--) {
-		for (j=1;j<=i;j++) {
-			if(j<i) 
-			        printf("%d*",i); 
-			else 
-			        printf("%d",i);
-		}
-		printf(" \n");
-	}
-	return 0;
+printf("\n");
+  }
+  for(i=n;i>=1;i--)
+  {
+	  for(j=1;j<=1;j++)
+	  {
+		  if(j<i)
+		  printf("%d*",i;
+		  else
+		  printf("%d",i);
+	  }
+	  printf("\n");
+  }
+  return (0);
 }
